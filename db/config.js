@@ -6,9 +6,9 @@ var config = {
   host: 'localhost',
   port: 5432,
   database: 'express_terms',
-  user: 'jackie' // your username here!!
+  user: 'mohrahalateeq' // your username here!!
 }
 
-var connection = pgInstance(config);
 
+var connection = pgInstance(config);
 module.exports = connection;
